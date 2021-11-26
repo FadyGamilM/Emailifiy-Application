@@ -9,7 +9,8 @@ app.get("/", (req, res, next) => {
 });
 
 // development env port = 5000 , production port = "From Heruko"
-const PORT = process.env.PORT | 5000;
-app.listen(PORT, () => {
+const PORT = process.env.PORT || 5000;
+const host = "'0.0.0.0'";
+app.listen(PORT, host, () => {
 	console.log(`Express Server is running up on port ${PORT}`);
 });
