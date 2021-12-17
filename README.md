@@ -1,0 +1,2 @@
+# Emailifiy-Application
+This application targets the project managers and startups owners to be able to improve their services based on their clients feedback, we send to their clients organized emails, tabulate their feedback, generate charts and statistical results out from these feedbacks, so startups owners and project managers can improve their services based on something real, without any effort from them.
